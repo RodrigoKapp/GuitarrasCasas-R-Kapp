@@ -346,6 +346,7 @@ footer {
 
     .contenedorGaleria {
         
+     clear
      width: 100%;
      display: flex;
      flex-direction: row;
