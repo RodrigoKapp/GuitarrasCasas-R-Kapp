@@ -195,9 +195,9 @@ footer {
 .contenedorGaleria {
     grid-area: contenedorGaleria;
     width: 100%;
-    display:grid;
-    row-gap: 10px;
-    column-gap: 10px;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 .imagen img {  
@@ -345,14 +345,19 @@ footer {
     }
 
     .contenedorGaleria {
-        width: 100%;
+        
+     width: 100%;
      display: flex;
+     flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
-     margin: 10px;
+     
+    
     }
     .imagen {
-        width: 500px;
+        width: 400px;
+        display: flex;
+        padding: 10px;
     }
 
 
