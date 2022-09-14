@@ -4,72 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Tienda</title>
 </head>
-<body class="bodyTienda">
-    <header class="headerTienda">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./tienda.html">Tienda</a> </li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./sobremi.html">Sobre Mi</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<body class="container-fluid">
 
-    </header>
-    <article class="articleTienda">
-        <h1>Encuentra la guitarra adecuada para ti</h1>
+    <section class="row">
+        <section class="col-12">
+            <header class="p-5 mb-2 bg-dark text-white">
 
-    </article>
+     
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobremi.html">Sobre Mi</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                          </li>
+                       
+                      </ul>
+                </nav>
+            
+                </header>
+        </section>
 
-    <main class="mainTienda1">
-        <div>
-       
-        <img src="../img/portada-tienda-clasica..jpg" alt="">
-        <h2>Modelos Clasicos</h2>
-        <p>Obtenga una descripción general sencilla de nuestra línea de guitarras clasicas</p>
-       </div>
 
-      
-       <div>
-        <img src="../img/portada-tienda-acustica..jpeg" alt="">
-        <h2>Modelos Acusticos</h2>
-        <P>Una guía para encontrar la guitarra acústica adecuada para ti</P>
-       </div>
+        <section class="container-fluid text-center p-5 ">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 columna1">
+                <div class="card" style="max-width: 25rem;">
+                    <img src="../img/portada-tienda-clasica..jpg" class="card-img-top img-fluid" alt="clasicas">
+                    <div class="card-body">
+                      <h5 class="card-title">Clasicas</h5>
+                      <p class="card-text">Comience aquí para obtener una descripción general sencilla de nuestra línea de guitarras Clásicas</p>
+                      <a href="#" class="btn btn-secondary">Explorar</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 columna1">
 
-    </main>
+                <div class="card" style="max-width: 25rem;">
+                    <img src="../img/portada-tienda-acustica..jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Acusticas</h5>
+                      <p class="card-text">Comience para obtener una descripción general sencilla de nuestra línea de guitarras acústicas.</p>
+                      <a href="#" class="btn btn-secondary">Explorar</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
 
-    <main class="mainTienda2">
-        <div>
-            <img src="../img/portada-las-mas-populares-.jpeg" alt="">
-            <h2>Las Mas Populares</h2>
-            <p>Explora los modelos mas exitosos de la linea</p>
+          <section class="container-fluid text-center p5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 columna2">
+                <div class="card" style="max-width: 25rem;">
+                    <img src="../img/portada-las-mas-populares-.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Las mas Populares</h5>
+                      <p class="card-text">Aqui encontraras los modelos mas popularesde la marca</p>
+                      <a href="#" class="btn btn-secondary">Ver Aqui</a>
+                    </div>
+                  </div>
+                </div>
 
-        </div>
-        
+              <div class="col-sm-12 col-md-6 col-lg-4 columna2">
+                <div class="card" style="max-width: 25rem;">
+                    <img src="../img/portada-edicion-limitada.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Edicion Limitada</h5>
+                      <p class="card-text">Podras encontrar todos los modelos personalizados</p>
+                      <a href="#" class="btn btn-secondary">Navegar</a>
+                    </div>
+                  </div>
+              </div>
 
-        <div>
-            <img src="../img/portada-edicion-limitada.jpeg" alt="">
-            <h2>Edicion Limitada</h2>
-            <p>Guitarras Casas con un atractivo estético único</p>
-             
-        </div>
-        
+              <div class="col-sm-12 col-md-6 col-lg-4 columna2">
+                <div class="card" style="max-width: 25rem;">
+                    <img src="../img/portada-encuentra-tu-mdelo-405x285.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Encuentra tu Modelo</h5>
+                      <p class="card-text">Te daremos las mejores herramientas para que encuentres el modelo indicado para ti.</p>
+                      <a href="#" class="btn btn-secondary">Explorar</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          
 
-        <div>
-            <img src="../img/portada-encuentra-tu-mdelo-405x285.jpeg" alt="">
-             <h2>Encuentra Tu Modelo</h2>
-             <p>Una guía para encontrar la guitarra adecuada para ti</p>
-        </div>
+      <section class="container text-center">
+          <div class="row">
+            <div class="col">
+              <footer class="p-5 mb-2 bg-dark text-white">
+                <p>COPYRIGHT © 2020 GUITARRAS CASAS</p>  
+             </footer>
+            </div>
+          </div>
+        </section>
 
-    </main>
-      
-    <footer>
-        <p>COPYRIGHT © 2020 GUITARRAS CASAS</p> 
- </footer>
-    
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
