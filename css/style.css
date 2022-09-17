@@ -32,7 +32,7 @@ header ul, li, a {
     display: flex;
     flex-direction:column;
     color: rgb(228, 163, 23);
-    list-style: none;
+     list-style: none;
     text-decoration: none;
 }
 
