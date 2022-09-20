@@ -37,3 +37,11 @@ margin: 0 !important;
 padding: 15px;
 }
 
+.textSobreMi {
+   display: flex;
+   text-align: justify;
+   margin-top: 15px;
+   font-size: large;
+   line-height: 30px;
+}
+
