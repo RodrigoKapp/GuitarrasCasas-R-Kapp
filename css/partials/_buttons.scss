@@ -1,0 +1,27 @@
+.btn1 {
+    background-color: rgb(122, 0, 0);
+    @extend %buttonDefault;
+}
+    
+
+.btn2 {
+    background-color: rgb(109, 20, 20);
+    @extend %buttonDefault;
+
+}
+
+.btn3 {
+    background-color: rgb(116, 38, 38);
+    @extend %buttonDefault;
+}
+
+.btn4 {
+    background-color: rgb(75, 23, 23);
+    @extend %buttonDefault;
+}
+
+.btn5 {
+    background-color: rgb(70, 29, 29);
+    @extend %buttonDefault;
+
+}

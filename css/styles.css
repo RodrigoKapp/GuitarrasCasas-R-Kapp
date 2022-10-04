@@ -1,3 +1,8 @@
+.btn5, .btn4, .btn3, .btn2, .btn1 {
+  border-bottom: 2px solid;
+  padding: 10px;
+}
+
 header {
   background-color: rgb(25, 24, 31);
 }
@@ -8,11 +13,22 @@ header .nav-link:hover {
   color: rgb(110, 113, 116);
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  background-color: rgb(25, 24, 31);
-  color: rgb(252, 252, 252);
+.btn1 {
+  background-color: rgb(122, 0, 0);
+}
+
+.btn2 {
+  background-color: rgb(109, 20, 20);
+}
+
+.btn3 {
+  background-color: rgb(116, 38, 38);
+}
+
+.btn4 {
+  background-color: rgb(75, 23, 23);
+}
+
+.btn5 {
+  background-color: rgb(70, 29, 29);
 }/*# sourceMappingURL=styles.css.map */
