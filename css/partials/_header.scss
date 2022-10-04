@@ -1,14 +1,10 @@
 header {
-    display: flex;
-    align-items:flex-end;
-    justify-content: center;
-    background-color:$color-header-footer;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    .nav-link{
+    background-color: black;
+    .nav-link {
         color: rgb(252, 252, 252);
         &:hover {
-          color: rgb(102, 102, 102);  
+            color:rgb(110, 113, 116)
         }
     }
+   
 }
