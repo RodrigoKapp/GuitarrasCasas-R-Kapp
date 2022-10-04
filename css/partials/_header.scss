@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: map-get($colores, colorFondoHeaderFooter );
     .nav-link {
         color: rgb(252, 252, 252);
         &:hover {

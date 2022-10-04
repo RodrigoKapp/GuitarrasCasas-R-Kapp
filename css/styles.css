@@ -1,9 +1,18 @@
 header {
-  background-color: black;
+  background-color: rgb(25, 24, 31);
 }
 header .nav-link {
   color: rgb(252, 252, 252);
 }
 header .nav-link:hover {
   color: rgb(110, 113, 116);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rgb(25, 24, 31);
+  color: rgb(252, 252, 252);
 }/*# sourceMappingURL=styles.css.map */
