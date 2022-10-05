@@ -49,3 +49,23 @@ footer{
        padding: 10px;
     }
 }
+
+.h1Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color:brown;
+    &:hover {
+        background-color: rgb(173, 83, 83);
+    }
+
+}
