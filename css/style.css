@@ -31,7 +31,7 @@ header {
 header ul, li, a {
     display: flex;
     flex-direction:column;
-    color: rgb(228, 163, 23);
+    color: rgb(255, 255, 255);
      list-style: none;
     text-decoration: none;
 }
@@ -239,12 +239,12 @@ footer {
     background-image:url(../img/header-1.jpg);
     background-size: cover;
     display: flex;
-    justify-content:end;
-    align-items:flex-end;
+    justify-content:center;
+    align-items:center;
     }
 
     header nav ul {
-       background-color: rgba(44, 42, 40, 0.836);
+      
        width: 550px;
        display: flex;
        flex-direction: row;
