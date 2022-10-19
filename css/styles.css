@@ -1,8 +1,7 @@
-body {
-  overflow-x: hidden;
-
+.logo {
+  display: flex;
+  width: 200px;
 }
-
 
 .nav-link {
   color: aliceblue;
@@ -10,10 +9,31 @@ body {
 
 footer {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 15px;
+}
+footer .contenedor-logo {
+  width: 250px;
   height: 150px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  font-size: x-small;
+}
+footer .contenedor-logo .logo-footer {
+  width: 250px;
+}
+footer .iconos-footer {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .bi {
+  width: 25px;
 }
 
 .h1tienda {
