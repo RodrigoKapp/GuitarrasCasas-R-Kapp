@@ -1,10 +1,10 @@
 footer {
     width: 100%;
     display: flex;
-     justify-content:space-between;
+     justify-content:space-evenly;
      align-items: center;
      color: aliceblue;
-     padding: 15px;
+     padding: 25px;
      
      .contenedor-logo {
 
@@ -35,6 +35,9 @@ footer {
 
     .bi {
         width: 25px;
+        &:hover{
+            color:$hoverFooter;
+        }
     }
 
 

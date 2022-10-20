@@ -10,10 +10,10 @@
 footer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   color: aliceblue;
-  padding: 15px;
+  padding: 25px;
 }
 footer .contenedor-logo {
   width: 250px;
@@ -34,6 +34,9 @@ footer .iconos-footer {
 }
 footer .bi {
   width: 25px;
+}
+footer .bi:hover {
+  color: rgb(141, 141, 141);
 }
 
 .h1tienda {
