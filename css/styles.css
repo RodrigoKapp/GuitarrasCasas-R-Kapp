@@ -1,5 +1,4 @@
 .logo {
-  display: flex;
   width: 200px;
 }
 
@@ -8,22 +7,26 @@
 }
 
 footer {
-  width: 100%;
+  max-width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   color: aliceblue;
   padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
 }
 footer .contenedor-logo {
   width: 250px;
   height: 150px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-size: x-small;
 }
 footer .contenedor-logo .logo-footer {
-  width: 250px;
+  width: 200px;
 }
 footer .iconos-footer {
   width: 150px;
@@ -33,7 +36,7 @@ footer .iconos-footer {
   align-items: center;
 }
 footer .bi {
-  width: 25px;
+  width: 20px;
 }
 footer .bi:hover {
   color: rgb(141, 141, 141);
@@ -85,7 +88,7 @@ form {
 }
 
 .btn {
-  background-color: brown;
+  background-color: #a52a2a;
 }
 .btn:hover {
   background-color: rgb(173, 83, 83);
