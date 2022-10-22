@@ -87,6 +87,11 @@ form {
   justify-content: center;
 }
 
+.google-maps {
+  width: 100%;
+  border: 2px solid grey;
+}
+
 .btn {
   background-color: #a52a2a;
 }
