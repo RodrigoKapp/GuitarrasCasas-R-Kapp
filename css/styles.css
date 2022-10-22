@@ -39,7 +39,7 @@ footer .bi {
   width: 20px;
 }
 footer .bi:hover {
-  color: rgb(141, 141, 141);
+  color: rgb(104, 19, 19);
 }
 
 .h1tienda {
@@ -85,8 +85,12 @@ footer .bi:hover {
 form {
   display: flex;
   justify-content: center;
+  font-weight: 400;
+  font-weight: 500;
 }
-
+form .form-label {
+  font-weight: 500;
+}
 .google-maps {
   width: 100%;
   border: 2px solid grey;

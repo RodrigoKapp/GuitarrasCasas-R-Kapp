@@ -7,8 +7,19 @@
 }
 
 form {
+    
     display: flex;
     justify-content: center;
+    font-weight: 400;
+    
+    
+    .form-label {
+        font-weight: 500;
+    }
+
+    .form-check-label{
+
+    } font-weight: 500;
 }
 
 .google-maps{
