@@ -1,13 +1,45 @@
+.logo {
+  width: 200px;
+}
+
 .nav-link {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 footer {
-  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+footer .contenedor-logo {
+  width: 250px;
   height: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: x-small;
+}
+footer .contenedor-logo .logo-footer {
+  width: 200px;
+}
+footer .iconos-footer {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .bi {
+  width: 20px;
+}
+footer .bi:hover {
+  color: grey;
 }
 
 .h1tienda {
@@ -53,11 +85,38 @@ footer {
 form {
   display: flex;
   justify-content: center;
+  font-weight: 400;
+  font-weight: 500;
+}
+form .form-label {
+  font-weight: 500;
+}
+.google-maps {
+  width: 100%;
+  border: 2px solid grey;
 }
 
 .btn {
-  background-color: rgb(165, 29, 29);
+  background-color: #a52a2a;
 }
-.btn:hover {
-  background-color: rgb(173, 83, 83);
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  color: rgb(43, 39, 39);
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: rgb(61, 59, 59);
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(107, 98, 98);
 }/*# sourceMappingURL=styles.css.map */
